@@ -79,6 +79,171 @@ export default function NotesApp() {
       from: "-", 
       to: "Aisyah Luna XI BSN 1", 
       note: "Kurangin toxic dan gengsi plisss"
+    },
+    {
+      from: "X", 
+      to: "Qindah", 
+      note: "08 berapa kak?"
+    },
+    {
+      from: "anomali pita merah ulw", 
+      to: "Kak ihsan ( sesi dokum )", 
+      note: "kak gambarnya sukaa gaaa??? Kalo suka pasang di SG kakkk, jangan lupa tag aku yg gambar itu ( @miukii_024 )"
+    },
+    {
+      from: "Sesorang", 
+      to: "Imam", 
+      note: "Mam bilangin ke dika buat jangan maen cwe mulu"
+    },
+    {
+      from: "", 
+      to: "", 
+      note: ""
+    },
+    {
+      from: " qiteelae ", 
+      to: "dia", 
+      note: "diam seperti limbat, bergerak pengen disayang"
+    },
+    {
+      from: "someone who adores you so much", 
+      to: "melvern XI RPL 2", 
+      note: "you never knew, how much i really liked you, cause i never even told you🥹 SEMANGAAT YAA semoga u always grow up to be a kind and more cuteness person in the whoooole world🤩🤩 love ya <3"
+    },
+    {
+      from: "X RPL 2", 
+      to: "kaka operator", 
+      note: "aduh kak kok udah selesai aja ya mplsnya, kan masi mau dengerin lagu di audit. makasi banyak ya ka udah nyetel playlist yg relate sm ak"
+    },
+    {
+      from: "You 2000 years ago", 
+      to: "You 2000 years from now", 
+      note: "In the end, this is just a very long story about love, which makes us realize that 'Human is a slave to the one they loves.' "
+    },
+    {
+      from: "aku yang baik hati", 
+      to: "kamu yang sangat sok cool abizz", 
+      note: "DAN YAP MAMAM GUA UDAH MOVE ON"
+    },
+    {
+      from: "X Kul 1", 
+      to: "kakak pramuka yang cowo sendiri di barisan pas yel yel", 
+      note: "kak lucu banget, km kls brp hehehe"
+    },
+    {
+      from: " X K T", 
+      to: "semua anak basket", 
+      note: "demos nya keren banget kak, jadi mau masuk basket"
+    },
+    {
+      from: "akuu", 
+      to: "depii 🤍", 
+      note: "ily ma chairmate ⭐"
+    },
+    {
+      from: "penggemar jauh", 
+      to: "kak wisnu XII rpl 2", 
+      note: "semangatt ya kak codingnya, btw manis bangett hehe"
+    },
+    {
+      from: "Someone", 
+      to: "Yosua", 
+      note: "Semangat sekolahnya Kakk!!"
+    },
+    {
+      from: "alumni", 
+      to: "dedek dedek gemas", 
+      note: "Welcome to SMKN 24 semuaaaaa, Semangat menghadapi tugas tugas mu yang akan banyak ituuuuu"
+    },
+    {
+      from: "kollak ubi", 
+      to: "pina rosblok", 
+      note: "ayo kita main rosblok, lawf yuw 💅😋🥺🥰🤗🫶🏻💐"
+    },
+    {
+      from: "coklat dilan", 
+      to: "rafidan orang baduy", 
+      note: "bro.. why u so fine 😔 !?#)$(?!#@$!. hope u always feel happy yeayy 🫶"
+    },
+    {
+      from: "ayam petokpetok 🐥🐥", 
+      to: "Devita Dwi Lestari ( 11 Kuliner 1 ) 🍳", 
+      note: "Hi besti👋🏻😗😗, km tau nggak ak siapa??🤭. APA?? TIDAK TAU??? jahat😠, pokoknya ak temanmu yg paling imut👉🏻👈🏻. Semangat terus ya besti❤‍🩹👩‍🍳, btw masakin aku donggg kan kamu calon juri di MasterChef 😛😛. Besti kapan kita main lagi😖, ak sudah siap menjelajahi dunia bersamamu besti🚀. Ah alay bgt ya teksnya, maaf ya kakak depi🍳 pokoknya km yang terbaik dari yang terbaik 🪄. Ak syg km, lovyu teman baikku 🤭😙 (yg mau deketin depi hrs lulus ujian dari aku dulu, ak penilai pokoknya 😠, jgn berani beraninya klian jahatin dia nnti aku kejar🔥). Oke segini aja, inti pesannya adalah depi itu anaknya baik sekali, cantik sekali (karna temannya aja cantik hehe iya akuu 😜), penolong sejatii, teman terbaik lah pokoknya 👏🏻👏🏻👏🏻. Depi kerenn, semangat terus ya klo cape istirahat aja gapapaa tapi jangan menyerah🦸🏻‍♀, jangan sering overthinking ya bestii🥺, sehat sehat terus telor ceplok kesayangan akuu lovyuuu🙆🏻‍♀💘💘."
+    },
+    {
+      from: "kepo", 
+      to: "Lebih dari kata spesial, sekar wulan X ULW", 
+      note: "Semangat jangan pantang nyerah, km cantik, tp dingin banget itu yg spesial dari km, imut juga hehe thanks ya"
+    },
+    {
+      from: "alumni", 
+      to: "WARGAA DUPAT", 
+      note: "kita bole join sekali gaaaaaaa🥺🥺🥺"
+    },
+    {
+      from: "X-ULW", 
+      to: "kaka' OSIS SMKN 24", 
+      note: "kaka' kalian hebat! kalian keren!, terimakasih sudah membimbing kami selama 5 hari MPLS dan 1 hari pra MPLS yaa!!<3"
+    },
+    {
+      from: "7280", 
+      to: "OrBa", 
+      note: "2 3 ayam lari, hai orang baik"
+    },
+      {
+      from: "orang cantik x ulw", 
+      to: "kak ecaaa", 
+      note: "kakkk kamu lucu bangettt, sorry tapi kamu gemessss gakuatt bangett pengenn foto bareng tapi aku maluu😭😭"
+    },
+    {
+      from: "X - ULW", 
+      to: "kak fharel pj rpl", 
+      note: "hai kak fharel, i have crush on u (banget banget banget) :( kamu keren banget kak!! bisa berhasil ngedampingin anak anak rpl, bisa membimbing mereka dengan baik, dan bisa bertugas sebagai divisi dokumentasi dengan baik!! semangat terus yaa kak untuk pendidikan kamu😄, aku bakalan selalu ngedukung kamu dimanapun dan kapanpun itu!! doain aku ya kak, semoga aku bisa masuk osis kaya kamu. anw besok aku ulang tahun loh kak, tolong ucapin aku dalam hati kamu ya kak ╥﹏╥"
+    },
+    {
+      from: "anak ph 2", 
+      to: "kakak osis ganteng", 
+      note: "pliss jangan ganteng', jangan lulus dulu"
+    },
+    {
+      from: "A", 
+      to: "Devian tbs'3", 
+      note: "aku kangen"
+    },
+    {
+      from: "Ian nak lipan", 
+      to: "Alip (XII TBS 3)", 
+      note: "Semangatt yahhh jdi agit nyaa kakak"
+    },
+    {
+      from: "anak ulw",
+      to: "aaa yang baju merah yng derama",
+      note: "hai kaka yang baju merah yang Derama tdi, aku crush on (banget sama kaka) :( Kamu keren banget kak!! bisa berhasil tampil Derama yang sangat bagus banget, semangat terus ya kak, semoga kak cita cita kaka tercapai amin, semangat terus yaa jangan pantang menyerahnya 😄,aku bakal selalu dukung kamu di mana pun kak berada dan kapanpun itu!!, aku ada 2 pantun buat kaka: Jalan-jalan ke kota tua, Melihat gedung dengan gaya. Kakak kelas, sungguhlah rupawan, Senyumnya bikin hati berbunga. satu lagi!! Bunga mawar indah merekah, Dipetik indah untuk ditaruh di meja. Kakak, senyummu sungguh mempesona, Bikin hati jadi berbunga-bunga. dah segitu aja terimakasih udah mau baca pesan dari aku!! Bye👋🏻😄🫰"
+    },
+    {
+      from: "anak ulw",
+      to: "kaka Nadin & kak Unai",
+      note: "hai kaka, makasih ya atas semuanya udah dampingin anak ulw dari awal sampai akhir, aku senang bisa bertemu dengan kaka Nadin & kaka unaii, ouh ya kaka nadin & kaka unaii mau keluar negeri yah, semoga selamat sampai tujuan amin 😄🫰🏻, ouh ya kaka semangat terus ya belajarnya 🙆🏻‍♀️, se youuu kaka unai & kaka nadin 🙆🏻‍♀️🫰🏻"
+    },
+    {
+      from: "akuu",
+      to: " kaka yang main hadroh (12 rpl 1) ",
+      note: "kakaa keren bgtt sii. jgn punya gandengan dulu pliss.. hehe. btw kacamatanya kece bgtt, kaya orangnya"
+    },
+    {
+      from: "-",
+      to: "siapa aja yang mau",
+      note: "kasih semangat dong"
+    },
+    {
+      from: "smone",
+      to: "all",
+      note: "smngt"
+    },
+    {
+      from: "f",
+      to: "kakak XII RPL 1",
+      note: "kak kamu cantik banget"
     }
   ];
 
