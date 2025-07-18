@@ -73,7 +73,7 @@ export default function NotesApp() {
     {
       from: "?", 
       to: "ivan fatthurrahman kelas 10 kuliner 1", 
-      Note: "jika lu suka sama seseorang, jangan liat dari penampilan nya, tapi liat dari sifatnya"
+      note: "jika lu suka sama seseorang, jangan liat dari penampilan nya, tapi liat dari sifatnya"
     }, 
     {
       from: "-", 
