@@ -16,11 +16,6 @@ export default function NotesApp() {
       note: "omg kamu keren bgt pls!!! happy terus, semangat yesss❤",
     },
     {
-      from: "Someone",
-      to: "Enul Karamoy",
-      note: "Semangat enul!!!",
-    },
-    {
       from: "Zakii ",
       to: "Depiaan",
       note: "kok bisa si lucu bangettt",
@@ -75,6 +70,11 @@ export default function NotesApp() {
       to: "orang spesial",
       note: "Itu kelas XII TBS 3 yg namanya nisaa cantikk bangett sie kak",
     },
+    {
+      from: "-",
+      to: "Kak yasmine dan kak bianca",
+      note: "Semangat terus kak, makasii udah membimbing kita para kuliner 1"
+    }
   ];
 
   const breakpointColumns = {
