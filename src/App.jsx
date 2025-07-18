@@ -5,11 +5,56 @@ import TopNotes from "./components/TopNotes";
 
 export default function NotesApp() {
   const notes = [
-    // {
-    //   from: "Me",
-    //   to: "Myself",
-    //   note: "Belajar React dan memahami hooks\nMenggunakan useState dan useEffect\nPenanganan event di React",
-    // },
+    {
+      from: "X RPL 2",
+      to: "Kak Fahrel",
+      note: "bisa gak ttp jdi pj kita ampe lulus😞",
+    },
+    {
+      from: "Anonim",
+      to: "Almira X KUL 1",
+      note: "omg kamu keren bgt pls!!! happy terus, semangat yesss❤",
+    },
+    {
+      from: "Someone",
+      to: "Enul Karamoy",
+      note: "Semangat enul!!!",
+    },
+    {
+      from: "Zakii ",
+      to: "Depiaan",
+      note: "kok bisa si lucu bangettt",
+    },
+    {
+      from: "juaaajuaaaa",
+      to: "kaka fharel dan kaka reza ",
+      note: "terimakasi ya kaka uda sabar jadi pj rpl 2, walau kalian hilang hilang mulu dan kita jd kaya anak ilang tp gapapa ko, terimakasi banyaaaak kakaas",
+    },
+    {
+      from: "X Ph 1",
+      to: "UNTUK SEMUA KAKAK OSIS!!",
+      note: "keren banget kakak OSIS semua nyaa.. sukses trs ya kakk buat kedepannya bimbing kita trs pokoknya 🫶🏻. mpls kali ini SANGATT SANGATT MENGESANKAN!! 💜💜 #Keepshining ✨✨",
+    },
+    {
+      from: "key",
+      to: "Kaka kelas 12 busanas tigas cantika",
+      note: "i love u ",
+    },
+    {
+      from: "Asa Mitaka",
+      to: "Kak Hououin",
+      note: "Main robelok yuk",
+    },
+    {
+      from: "Farel",
+      to: "nisaa 12 busana 3, yang kalo nyampe sekolah siang bgt",
+      note: "Selalu semangat yaa cantikk",
+    },
+    {
+      from: "Lia",
+      to: "Anak 24 semuanya",
+      note: "Selamat belajar di 24",
+    },
   ];
 
   const breakpointColumns = {
