@@ -5,56 +5,11 @@ import TopNotes from "./components/TopNotes";
 
 export default function NotesApp() {
   const notes = [
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Belajar React dan memahami hooks\nMenggunakan useState dan useEffect\nPenanganan event di React",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Mengerjakan tugas akhir minggu\nFokus pada bagian yang sulit terlebih dahulu\nMengatur waktu dengan baik",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Membaca buku tentang pengembangan diri\nMenulis ringkasan dari bab yang penting\nDiskusi dengan teman",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Menulis jurnal harian\nMerefleksi aktivitas dan perasaan\nMencatat pencapaian dan rencana esok",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Olahraga pagi di taman\nLari selama 30 menit\nLatihan fisik ringan setelahnya",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Membuat proyek baru dengan lebih banyak konten\nMenambahkan fitur interaktif\nMenggunakan API eksternal\nMengoptimalkan performa aplikasi",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Melakukan eksperimen dengan resep baru\nMenyiapkan bahan-bahan terlebih dahulu\nMenuliskan kesan setelah mencicipi",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Belajar bahasa baru\nMelatih percakapan dasar\nMenonton film tanpa subtitle",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Menata ulang kamar\nMembuang barang yang tidak terpakai\nMengatur ruang kerja agar lebih nyaman",
-    },
-    {
-      from: "Me",
-      to: "Myself",
-      note: "Mengikuti kursus online\nMenonton video pembelajaran setiap hari\nMengerjakan latihan dan kuis",
-    },
+    // {
+    //   from: "Me",
+    //   to: "Myself",
+    //   note: "Belajar React dan memahami hooks\nMenggunakan useState dan useEffect\nPenanganan event di React",
+    // },
   ];
 
   const breakpointColumns = {
@@ -64,7 +19,7 @@ export default function NotesApp() {
   };
 
   return (
-    <div className="w-full mx-auto p-4 bg-gray-800 text-white">
+    <div className="w-full h-[100vh] mx-auto p-4 bg-gray-800 text-white">
       <div className="max-w-[1200px] mx-auto">
         <div className="mb-4">
           <h1 className="text-2xl font-bold">Welcome to Adudung!</h1>
