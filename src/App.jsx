@@ -69,6 +69,16 @@ export default function NotesApp() {
       from: "-",
       to: "Kak yasmine dan kak bianca",
       note: "Semangat terus kak, makasii udah membimbing kita para kuliner 1"
+    }, 
+    {
+      from: "?", 
+      to: "ivan fatthurrahman kelas 10 kuliner 1", 
+      Note: "jika lu suka sama seseorang, jangan liat dari penampilan nya, tapi liat dari sifatnya"
+    }, 
+    {
+      from: "-", 
+      to: "Aisyah Luna XI BSN 1", 
+      note: "Kurangin toxic dan gengsi plisss"
     }
   ];
 
