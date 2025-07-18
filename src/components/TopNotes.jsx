@@ -1,5 +1,5 @@
 import Slider from "react-infinite-logo-slider";
-import { Card, CardContent } from "./card";
+import { Card, CardContent } from "./Card";
 
 export default function TopNotes({ notes }) {
   return (
