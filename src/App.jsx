@@ -16,11 +16,6 @@ export default function NotesApp() {
       note: "omg kamu keren bgt pls!!! happy terus, semangat yesss❤",
     },
     {
-      from: "Zakii ",
-      to: "Depiaan",
-      note: "kok bisa si lucu bangettt",
-    },
-    {
       from: "juaaajuaaaa",
       to: "kaka fharel dan kaka reza ",
       note: "terimakasi ya kaka uda sabar jadi pj rpl 2, walau kalian hilang hilang mulu dan kita jd kaya anak ilang tp gapapa ko, terimakasi banyaaaak kakaas",
