@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Card, CardContent } from "./components/card";
+import { Card, CardContent } from "./components/Card";
 import Masonry from "react-masonry-css";
 import TopNotes from "./components/TopNotes";
 
