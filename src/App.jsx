@@ -11,6 +11,11 @@ export default function NotesApp() {
       note: "Hi besti👋🏻😗😗, km tau nggak ak siapa??🤭. APA?? TIDAK TAU??? jahat😠, pokoknya ak temanmu yg paling imut👉🏻👈🏻. Semangat terus ya besti❤‍🩹👩‍🍳, btw masakin aku donggg kan kamu calon juri di MasterChef 😛😛. Besti kapan kita main lagi😖, ak sudah siap menjelajahi dunia bersamamu besti🚀. Ah alay bgt ya teksnya, maaf ya kakak depi🍳 pokoknya km yang terbaik dari yang terbaik 🪄. Ak syg km, lovyu teman baikku 🤭😙 (yg mau deketin depi hrs lulus ujian dari aku dulu, ak penilai pokoknya 😠, jgn berani beraninya klian jahatin dia nnti aku kejar🔥). Oke segini aja, inti pesannya adalah depi itu anaknya baik sekali, cantik sekali (karna temannya aja cantik hehe iya akuu 😜), penolong sejatii, teman terbaik lah pokoknya 👏🏻👏🏻👏🏻. Depi kerenn, semangat terus ya klo cape istirahat aja gapapaa tapi jangan menyerah🦸🏻‍♀, jangan sering overthinking ya bestii🥺, sehat sehat terus telor ceplok kesayangan akuu lovyuuu🙆🏻‍♀💘💘."
     },
     {
+      from: "X - ULW", 
+      to: "kak fharel pj rpl", 
+      note: "hai kak fharel, i have crush on u (banget banget banget) :( kamu keren banget kak!! bisa berhasil ngedampingin anak anak rpl, bisa membimbing mereka dengan baik, dan bisa bertugas sebagai divisi dokumentasi dengan baik!! semangat terus yaa kak untuk pendidikan kamu😄, aku bakalan selalu ngedukung kamu dimanapun dan kapanpun itu!! doain aku ya kak, semoga aku bisa masuk osis kaya kamu. anw besok aku ulang tahun loh kak, tolong ucapin aku dalam hati kamu ya kak ╥﹏╥"
+    },
+    {
       from: "anak ulw",
       to: "aaa yang baju merah yng derama",
       note: "hai kaka yang baju merah yang Derama tdi, aku crush on (banget sama kaka) :( Kamu keren banget kak!! bisa berhasil tampil Derama yang sangat bagus banget, semangat terus ya kak, semoga kak cita cita kaka tercapai amin, semangat terus yaa jangan pantang menyerahnya 😄,aku bakal selalu dukung kamu di mana pun kak berada dan kapanpun itu!!, aku ada 2 pantun buat kaka: Jalan-jalan ke kota tua, Melihat gedung dengan gaya. Kakak kelas, sungguhlah rupawan, Senyumnya bikin hati berbunga. satu lagi!! Bunga mawar indah merekah, Dipetik indah untuk ditaruh di meja. Kakak, senyummu sungguh mempesona, Bikin hati jadi berbunga-bunga. dah segitu aja terimakasih udah mau baca pesan dari aku!! Bye👋🏻😄🫰"
@@ -214,11 +219,6 @@ export default function NotesApp() {
       from: "Ian nak lipan", 
       to: "Alip (XII TBS 3)", 
       note: "Semangatt yahhh jdi agit nyaa kakak"
-    },
-    {
-      from: "anak ulw",
-      to: "kaka Nadin & kak Unai",
-      note: "hai kaka, makasih ya atas semuanya udah dampingin anak ulw dari awal sampai akhir, aku senang bisa bertemu dengan kaka Nadin & kaka unaii, ouh ya kaka nadin & kaka unaii mau keluar negeri yah, semoga selamat sampai tujuan amin 😄🫰🏻, ouh ya kaka semangat terus ya belajarnya 🙆🏻‍♀️, se youuu kaka unai & kaka nadin 🙆🏻‍♀️🫰🏻"
     },
     {
       from: "akuu",
