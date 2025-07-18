@@ -55,6 +55,26 @@ export default function NotesApp() {
       to: "Anak 24 semuanya",
       note: "Selamat belajar di 24",
     },
+    {
+      from: "yy",
+      to: "alfina",
+      note: "ya lov u",
+    },
+    {
+      from: "dede",
+      to: "dede",
+      note: "haiii dede",
+    },
+    {
+      from: "fans barca",
+      to: "kaka pj kuliner 2",
+      note: "kaka keren banget pas saman kak, lope u HAHAHAHA",
+    },
+    {
+      from: "seseorang",
+      to: "orang spesial",
+      note: "Itu kelas XII TBS 3 yg namanya nisaa cantikk bangett sie kak",
+    },
   ];
 
   const breakpointColumns = {
@@ -64,7 +84,7 @@ export default function NotesApp() {
   };
 
   return (
-    <div className="w-full h-[100vh] mx-auto p-4 bg-gray-800 text-white">
+    <div className="w-full min-h-[100vh] mx-auto p-4 bg-gray-800 text-white">
       <div className="max-w-[1200px] mx-auto">
         <div className="mb-4">
           <h1 className="text-2xl font-bold">Welcome to Adudung!</h1>
