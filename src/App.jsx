@@ -239,6 +239,76 @@ export default function NotesApp() {
       from: "f",
       to: "kakak XII RPL 1",
       note: "kak kamu cantik banget"
+    },
+    {
+      from: "orang ganteng xii rpl 2",
+      to: "Barcin XI PH 3",
+      note: "Oi maen lagi"
+    },
+    {
+      from: "lynnn",
+      to: "-",
+      note: "aku cewe taehyung, mwehehe💐"
+    },
+    {
+      from: "NK - Strawberry Wine",
+      to: "The Lust Of Tides (L.O.T) - VOWS",
+      note: "🍓🍓🍓🍓🍓🍓🍓💌💌💌💌💌💌💌"
+    },
+    {
+      from: "Jennie blekping",
+      to: "Kaka yg jaga stand pik r",
+      note: "hawa ghibli nya keluar bgt ka"
+    },
+    {
+      from: "X busana 1",
+      to: "Ka luna & ka suci",
+      note: "sehat selalu Kaka Kaka imut🥺❤️ muah💋"
+    },
+    {
+      from: "siapaa yakkk",
+      to: "semua anak 24",
+      note: "semngt"
+    },
+    {
+      from: "pacar jaemin (orang cantik) ",
+      to: "kaka' osis & kaka' panitia semua",
+      note: "THANKS KAK UNTUK MPLS YANG KEREN INI KAK🥰👍🏻👏🏻"
+    },
+    {
+      from: "people people",
+      to: "hamba allah",
+      note: "semangat smoga semangat"
+    },
+    {
+      from: ":3",
+      to: "ka satria 12 rpl 2",
+      note: "i'm so glad u were born u so that I could know u."
+    },
+      {
+      from: "=)",
+      to: "kak azhar XII RPL 2",
+      note: "OMGGG GANTENGGG BGTTTT, semangatt selalu kaaak <3 "
+    },
+    {
+      from: "X busana 1",
+      to: "ka luna & ka suci ",
+      note: "ka suci&luna pendamping is the best pokoknya🤍🙌🏻"
+    },
+    {
+      from: "pecinta seblak",
+      to: "kakak OSIS yang ganteng nan manis inisial D",
+      note: "kak jangan ganteng ganteng dong"
+    },
+    {
+      from: "somebody",
+      to: "anybody",
+      note: "need someone to talk"
+    },
+    {
+      from: "adik tabus 2 ヾ(〃^∇^)ﾉ iloiiiyy",
+      to: "KA DAVA (yang jadi instruktur senam) ",
+      note: "kaka LUCU banget ka, ayo temenan sm adik^-^"
     }
   ];
 
