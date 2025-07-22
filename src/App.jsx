@@ -406,7 +406,7 @@ export default function NotesApp() {
           <p className="text-xl">Titip rasa lewat kata</p>
         </div>
         <div className="bg-gray-900 p-4 mb-4">
-          <TopNotes notes={notes} />
+          <TopNotes notes={notes.reverse()} />
         </div>
         <Masonry
           breakpointCols={breakpointColumns}
