@@ -309,6 +309,86 @@ export default function NotesApp() {
       from: "adik tabus 2 ヾ(〃^∇^)ﾉ iloiiiyy",
       to: "KA DAVA (yang jadi instruktur senam) ",
       note: "kaka LUCU banget ka, ayo temenan sm adik^-^"
+    },
+    {
+      from: "(⁠^⁠^⁠)",
+      to: "bang dokum insial s",
+      note: "gatau keren banget gilakkkk, semangat yaaa bang s"
+    },
+    {
+      from: ":b",
+      to: "ka satria 12rpl2",
+      note: "please dengerin lagunya Daniel Caesar - Blessed."
+    },
+    {
+      from: "siapa yach",
+      to: "kak dhika XII rpl 2",
+      note: "Aduhhhh kakak cakeppp bgt sihhhh bikin cenat cenut"
+    },
+    {
+      from: "matchalover",
+      to: "kakak pmr yang demos pake tongkat sama peci item",
+      note: "KAKAK LUCUU BGTT, JANGAN PUNYA GANDENGAN DULU PLIS"
+    },
+    {
+      from: "liplip jodoh jeno",
+      to: "untuk semua orang yang mau kerja keras buat MPLS ",
+      note: "smgt terus kelas 11 dan gws buat kelas 12"
+    },
+    {
+      from: "ucup flower",
+      to: "people",
+      note: "be my dilan?"
+    },
+    {
+      from: "11 pH 3",
+      to: "Rizki 11 ph 3",
+      note: "You are special for me"
+    },
+    {
+      from: "🐻",
+      to: "kelas 10",
+      note: "betah betah yaa di dupatt❗❗"
+    },
+    {
+      from: "sekolah sebelah king rpl",
+      to: "XI kul 2 absen 24",
+      note: "HAII"
+    },
+    {
+      from: "from : pemuja rahasia (?)",
+      to: "to : ka dava",
+      note: "ka, km lucu banget pas senam smgt gt.."
+    },
+    {
+      from: "sekolah sebelah",
+      to: "xi kul 2 absen 24",
+      note: "cantiknya kelewatan sumpah, CANTIK BANGET GILAK"
+    },
+    {
+      from: "secret",
+      to: "p",
+      note: "'i just wanna be yours' Arctic Monkeys"
+    }, 
+    {
+      from: "sebelah lu",
+      to: "raffa naura ayu",
+      note: "jangan kemana mana ya nong, w syg lu"
+    },
+    {
+      from: "2-21-25-21-14-7",
+      to: "kaka pmr yang pake kumis kumisan pas demos",
+      note: "kak, kakak keren banget jadi kakek kakek"
+    },
+    {
+      from: "perempuan iblis",
+      to: "chairmate",
+      note: "hi pinky girl"
+    },
+    {
+      form: "yang pasti cewe",
+      to: "x kuliner 2 (cwo yg maju krn slh suara hewan)",
+      note: "haii masak yang enak yaa n semangattt"
     }
   ];
 
