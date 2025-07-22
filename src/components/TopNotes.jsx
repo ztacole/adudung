@@ -9,7 +9,7 @@ export default function TopNotes({ notes }) {
       pauseOnHover={true}
       toRight={false}
     >
-      {notes.slice(-10).reverse().map((note, index) => (
+      {notes.slice(-10).map((note, index) => (
         <Slider.Slide key={index}>
           <Card className="break-words p-4 shadow-md rounded-lg mb-4 hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <CardContent>
