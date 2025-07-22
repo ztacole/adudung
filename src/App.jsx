@@ -6,11 +6,6 @@ import TopNotes from "./components/TopNotes";
 export default function NotesApp() {
   const notes = [
     {
-      from: "X - ULW", 
-      to: "kak fharel pj rpl", 
-      note: "hai kak fharel, i have crush on u (banget banget banget) :( kamu keren banget kak!! bisa berhasil ngedampingin anak anak rpl, bisa membimbing mereka dengan baik, dan bisa bertugas sebagai divisi dokumentasi dengan baik!! semangat terus yaa kak untuk pendidikan kamu😄, aku bakalan selalu ngedukung kamu dimanapun dan kapanpun itu!! doain aku ya kak, semoga aku bisa masuk osis kaya kamu. anw besok aku ulang tahun loh kak, tolong ucapin aku dalam hati kamu ya kak ╥﹏╥"
-    },
-    {
       from: "X RPL 2",
       to: "Kak Fahrel",
       note: "bisa gak ttp jdi pj kita ampe lulus😞",
