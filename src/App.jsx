@@ -406,14 +406,14 @@ export default function NotesApp() {
           <p className="text-xl">Titip rasa lewat kata</p>
         </div>
         <div className="bg-gray-900 p-4 mb-4">
-          <TopNotes notes={notes} />
+          <TopNotes notes={notes.reverse()} />
         </div>
         <Masonry
           breakpointCols={breakpointColumns}
           className="flex gap-4"
           columnClassName="masonry-column"
         >
-          {notes.reverse().map((note, index) => (
+          {notes.map((note, index) => (
             <Card
               key={index}
               className="break-words p-4 shadow-md rounded-lg mb-4 bg-gray-700 hover:bg-gray-600 transition-shadow duration-300 ease-in-out"
