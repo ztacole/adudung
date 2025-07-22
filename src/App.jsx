@@ -413,7 +413,7 @@ export default function NotesApp() {
           className="flex gap-4"
           columnClassName="masonry-column"
         >
-          {notes.map((note, index) => (
+          {notes.reverse().map((note, index) => (
             <Card
               key={index}
               className="break-words p-4 shadow-md rounded-lg mb-4 bg-gray-700 hover:bg-gray-600 transition-shadow duration-300 ease-in-out"
