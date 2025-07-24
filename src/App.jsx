@@ -366,7 +366,7 @@ export default function NotesApp() {
       note: "hi pinky girl"
     },
     {
-      form: "yang pasti cewe",
+      from: "yang pasti cewe",
       to: "x kuliner 2 (cwo yg maju krn slh suara hewan)",
       note: "haii masak yang enak yaa n semangattt"
     }
@@ -374,38 +374,133 @@ export default function NotesApp() {
 
   const breakpointColumns = {
     default: 4,
-    1024: 3,
-    640: 2,
+    1100: 3,
+    768: 2,
+    500: 1,
   };
 
+  const [darkMode, setDarkMode] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredNotes = notes.filter(note => 
+    note.from.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    note.to.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    note.note.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
-    <div className="w-full min-h-[100vh] mx-auto p-4 bg-gray-800 text-white">
-      <div className="max-w-[1200px] mx-auto">
-        <div className="mb-4">
-          <h1 className="text-2xl font-bold">Welcome to Adudung!</h1>
-          <p className="text-xl">Titip rasa lewat kata</p>
+    <div className={`w-full min-h-[100vh] transition-colors duration-300 ${darkMode ? 'bg-gradient-to-br from-gray-900 to-gray-800' : 'bg-gradient-to-br from-pink-50 to-blue-50'}`}>
+      <header className={`sticky top-0 z-10 backdrop-blur-md ${darkMode ? 'bg-gray-900/80' : 'bg-white/80'} shadow-md px-4 py-3`}>
+        <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center">
+          <div className="flex items-center mb-3 md:mb-0">
+            <div className={`text-4xl font-bold mr-2 ${darkMode ? 'text-pink-500' : 'text-pink-600'}`}>❤</div>
+            <div>
+              <h1 className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>Adudung</h1>
+              <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Titip rasa lewat kata</p>
+            </div>
+          </div>
+          
+          <div className="flex items-center space-x-3 w-full md:w-auto">
+            <div className="relative flex-1 md:w-64">
+              <input
+                type="text"
+                placeholder="Cari pesan..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className={`w-full pl-10 pr-4 py-2 rounded-full focus:outline-none ${
+                  darkMode 
+                    ? 'bg-gray-800 text-white border border-gray-700 focus:border-pink-500' 
+                    : 'bg-white text-gray-800 border border-gray-200 focus:border-pink-400'
+                }`}
+              />
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className={`h-5 w-5 absolute left-3 top-2.5 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            
+            <button 
+              onClick={() => setDarkMode(!darkMode)}
+              className={`p-2 rounded-full ${
+                darkMode 
+                  ? 'bg-gray-800 text-yellow-300 hover:bg-gray-700' 
+                  : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
+            >
+              {darkMode ? (
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
-        <div className="bg-gray-900 p-4 mb-4">
-          <TopNotes notes={notes.reverse()} />
+      </header>
+
+      <div className="max-w-[1200px] mx-auto p-4">
+        <div className={`rounded-xl overflow-hidden mb-8 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
+          <div className={`p-4 ${darkMode ? 'bg-gray-700' : 'bg-pink-50'}`}>
+            <h2 className={`text-xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+              ✨ Pesan Terbaru
+            </h2>
+          </div>
+          <div className="p-4">
+            <TopNotes notes={[...notes].reverse()} darkMode={darkMode} />
+          </div>
         </div>
+
+        <div className="mb-6">
+          <h2 className={`text-xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+            Semua Pesan ({filteredNotes.length})
+          </h2>
+        </div>
+
         <Masonry
           breakpointCols={breakpointColumns}
           className="flex gap-4"
           columnClassName="masonry-column"
         >
-          {notes.map((note, index) => (
+          {filteredNotes.map((note, index) => (
             <Card
               key={index}
-              className="break-words p-4 shadow-md rounded-lg mb-4 bg-gray-700 hover:bg-gray-600 transition-shadow duration-300 ease-in-out"
+              className={`break-words p-4 shadow-md rounded-lg mb-4 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl ${
+                darkMode 
+                  ? 'bg-gradient-to-br from-gray-700 to-gray-800 text-white hover:from-gray-600 hover:to-gray-700' 
+                  : 'bg-white text-gray-800 hover:bg-pink-50'
+              }`}
             >
               <CardContent className="p-2">
-                <p className="font-bold">From: {note.from}</p>
-                <p className="font-bold mb-2">To: {note.to}</p>
-                <p>{note.note}</p>
+                <div className="flex justify-between items-start mb-2">
+                  <p className={`font-bold ${darkMode ? 'text-pink-400' : 'text-pink-600'}`}>
+                    From: {note.from}
+                  </p>
+                  <div className={`text-xs px-2 py-1 rounded-full ${darkMode ? 'bg-gray-600 text-gray-300' : 'bg-gray-100 text-gray-600'}`}>
+                    #{index + 1}
+                  </div>
+                </div>
+                <p className={`font-bold mb-3 ${darkMode ? 'text-blue-300' : 'text-blue-600'}`}>
+                  To: {note.to}
+                </p>
+                <div className={`pt-2 border-t ${darkMode ? 'border-gray-600' : 'border-gray-200'}`}>
+                  <p className="whitespace-pre-wrap">{note.note}</p>
+                </div>
               </CardContent>
             </Card>
           ))}
         </Masonry>
+
+        <footer className={`mt-12 py-6 text-center ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+          <p>❤ Adudung - Titip rasa lewat kata</p>
+        </footer>
       </div>
     </div>
   );
